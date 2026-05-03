@@ -15,7 +15,7 @@ response to time schedules or app events.
   scheduling, and client connections.
 - **Zero‑overhead** – idle CPU 0.0%, steady‑state RSS <2 MB, no heap
   allocations in hot paths.
-- **Root and non‑root** – auto‑detects privileges, uses cgroup v2 when
+- **Root and non‑root** – auto‑detects privileges, uses cgroup v1 and v2 when
   available, with a lightweight `/proc` fallback for older devices.
 - **Full cron engine** – classic 5‑field syntax, macros (`@reboot`,
   `@daily`, etc.), and app‑event triggers (`@app_open`, `@app_close`,
